@@ -1,8 +1,13 @@
-public class conditions {
+import java.util.Scanner;
     
+
+public class evenodd {
+   
 public static void main(String[] args){
 
- int x = 21;
+    Scanner n = new Scanner(System.in);
+	System.out.print("Enter number:");        
+	int x=n.nextInt();
          if((x%2==0) && (x<=20))
         {
             System.out.println("Not Weird");
@@ -23,3 +28,4 @@ public static void main(String[] args){
   }
 
 }
+
